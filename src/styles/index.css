@@ -1,34 +1,37 @@
-
+body{
+    background-color: antiquewhite;
+}
 .Traffic-light {
     background-color: black;
     padding: 10px;
-    display:flex ;
+   
     margin: auto;
-    width: 50px;
-    height: 100px;
+    width: 230px ;
+    height: 700px;
 }
 
 .Red {
-    background-color: red;
-    /* border-radius: 50%;
-    width: 100px;
-    height: 100px; */
+    background-color: rgb(201, 6, 146);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 .Yellow {
-    background-color: yellow;
-   /*  border-radius: 50%;
-    width: 100px;
-    height: 100px; */
+    background-color: yellowgreen;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 .Green {
-    background-color: green;
-   /*  border-radius: 50%;
-    width: 100px;
-    height: 100px; */
+    background-color:rgb(133, 241, 243);
+    border-radius: 50%;
+    border-color: grey;
+    width: 200px;
+    height: 200px;
 } 
 .glow {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    box-shadow: 0 0 200px rgb(250, 243, 49);
 }
 
 /* 
